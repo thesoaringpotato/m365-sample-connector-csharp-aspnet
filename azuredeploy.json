@@ -31,7 +31,7 @@
 	"location": "[resourceGroup().location]",
 	"sku": "S1",
 	"workerSize": "1",
-	"repoURL": "https://github.com/microsoft/m365-sample-connector-csharp-aspnet.git",
+	"repoURL": "https://github.com/thesoaringpotato/m365-sample-connector-csharp-aspnet.git",
 	"branch": "master"
   },
   "resources": [
