@@ -4,6 +4,7 @@
 namespace Sample.Connector
 {
     using System.Web.Routing;
+    using System.Web.Mvc;
 
     public class RouteConfig
     {
