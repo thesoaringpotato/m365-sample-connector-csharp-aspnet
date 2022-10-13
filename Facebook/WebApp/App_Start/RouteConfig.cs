@@ -13,16 +13,17 @@ namespace Sample.Connector
             
             /// routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            /// routes.MapRoute(
-            ///     "Default",                                              // Route name
-            ///     "{controller}/{action}/{id}",                           // URL with parameters
-            ///     new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
-            /// );
-            
             routes.MapRoute(
-                name: "Default",
-                url: "{*url}",
-                defaults: new { controller = "Home", action = "Index" });
+                "Default",                                              // Route name
+                "{controller}/{action}",                                // URL with parameters
+                new { controller = "Home", action = "Index" }           // Parameter defaults
+            );
+            
+            /// routes.MapRoute(
+            ///    name: "Default",
+            ///    url: "{*url}",
+            ///    defaults: new { controller = "Home", action = "Index" }
+            /// );
             
         }
     }
