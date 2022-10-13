@@ -11,13 +11,18 @@ namespace Sample.Connector
         {
             /// routes.Add("Default", new Route("{*path}", new DefaultRouteHandler()));
             
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            /// routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            /// routes.MapRoute(
+            ///     "Default",                                              // Route name
+            ///     "{controller}/{action}/{id}",                           // URL with parameters
+            ///     new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
+            /// );
+            
             routes.MapRoute(
-                "Default",                                              // Route name
-                "{controller}/{action}/{id}",                           // URL with parameters
-                new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
-            );
+                name: "Default",
+                url: "{*url}",
+                defaults: new { controller = "Home", action = "Index" });
             
         }
     }
