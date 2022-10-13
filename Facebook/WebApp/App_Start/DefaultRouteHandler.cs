@@ -27,10 +27,6 @@ namespace Sample.Connector
             {
                 filePath = "~/Views/NativeConnectorSetup.cshtml";
             }
-            /// else if (filePath.StartsWith("~/api/", StringComparison.OrdinalIgnoreCase))
-            /// {
-            ///     ;
-            /// }
             else
             {
                 if (!filePath.StartsWith("~/views/", StringComparison.OrdinalIgnoreCase))
