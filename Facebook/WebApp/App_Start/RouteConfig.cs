@@ -9,21 +9,11 @@ namespace Sample.Connector
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            /// routes.Add("Default", new Route("{*path}", new DefaultRouteHandler()));
-            
-            /// routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
-            routes.MapRoute(
-                "Default",                                              // Route name
-                "{controller}/{action}",                                // URL with parameters
-                new { controller = "Home", action = "Index" }           // Parameter defaults
+            routes.Add(
+                "Default", 
+                new Route("{*path}", 
+                new DefaultRouteHandler())
             );
-            
-            /// routes.MapRoute(
-            ///    name: "Default",
-            ///    url: "{*url}",
-            ///    defaults: new { controller = "Home", action = "Index" }
-            /// );
             
         }
     }
