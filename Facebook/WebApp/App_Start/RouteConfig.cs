@@ -11,8 +11,7 @@ namespace Sample.Connector
         {
             routes.Add(
                 "Default", 
-                new Route("{*path}", 
-                new DefaultRouteHandler())
+                new Route("{*path}", new DefaultRouteHandler())
             );
             
         }
