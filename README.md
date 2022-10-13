@@ -5,10 +5,10 @@ Follow the steps in [Deployment Doc](https://go.microsoft.com/fwlink/?linkid=209
 
 # Deploy to Azure
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthesoaringpotato%2Fm365-sample-connector-csharp-aspnet%2Fmaster%2Fazuredeploy.json" target="_blank">
-    <img src="https://raw.githubusercontent.com/microsoft/m365-sample-connector-csharp-aspnet/master/deploytoazure.png"/>
+    <img src="https://raw.githubusercontent.com/thesoaringpotato/m365-sample-connector-csharp-aspnet/master/deploytoazure.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fthesoaringpotato%2Fm365-sample-connector-csharp-aspnet%2Fmaster%2Fazuredeploy.json" target="_blank">
-    <img src="https://raw.githubusercontent.com/microsoft/m365-sample-connector-csharp-aspnet/master/visualizebutton.png"/>
+    <img src="https://raw.githubusercontent.com/thesoaringpotato/m365-sample-connector-csharp-aspnet/master/visualizebutton.png"/>
 </a>
 
 
